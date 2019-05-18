@@ -1,4 +1,4 @@
-package springbootcamp.unittest.domain;
+package springbootcamp.unittest.kata.domain;
 
 public enum AccountType {
     CURRENT, SAVING;

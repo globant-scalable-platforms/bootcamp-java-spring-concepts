@@ -1,11 +1,11 @@
-package springbootcamp.unittest.business;
+package springbootcamp.unittest.kata.business;
 
 import javax.security.auth.login.AccountException;
 
-import springbootcamp.unittest.data.AccountRepository;
-import springbootcamp.unittest.domain.Account;
-import springbootcamp.unittest.domain.AccountType;
-import springbootcamp.unittest.domain.TransferResponse;
+import springbootcamp.unittest.kata.data.AccountRepository;
+import springbootcamp.unittest.kata.domain.Account;
+import springbootcamp.unittest.kata.domain.AccountType;
+import springbootcamp.unittest.kata.domain.TransferResponse;
 
 public class AccountServiceImpl implements AccountService {
     

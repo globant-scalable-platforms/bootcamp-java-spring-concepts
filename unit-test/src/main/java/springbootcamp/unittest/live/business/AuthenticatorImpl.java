@@ -1,7 +1,7 @@
-package com.globant.bootcamp.unittesting.com.globant.bootcamp.liveclass.business;
+package springbootcamp.unittest.live.business;
 
-import com.globant.bootcamp.unittesting.com.globant.bootcamp.liveclass.data.AccountRepository;
-import com.globant.bootcamp.unittesting.com.globant.bootcamp.liveclass.domain.Account;
+import springbootcamp.unittest.live.data.AccountRepository;
+import springbootcamp.unittest.live.domain.Account;
 
 public class AuthenticatorImpl implements Authenticator{
     private AccountRepository accountRepository;

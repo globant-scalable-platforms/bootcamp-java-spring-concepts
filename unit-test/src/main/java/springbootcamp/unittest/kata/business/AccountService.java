@@ -1,10 +1,10 @@
-package springbootcamp.unittest.business;
+package springbootcamp.unittest.kata.business;
 
 import javax.security.auth.login.AccountException;
 
-import springbootcamp.unittest.domain.Account;
-import springbootcamp.unittest.domain.AccountType;
-import springbootcamp.unittest.domain.TransferResponse;
+import springbootcamp.unittest.kata.domain.Account;
+import springbootcamp.unittest.kata.domain.AccountType;
+import springbootcamp.unittest.kata.domain.TransferResponse;
 
 public interface AccountService {
     Account retrieveAccount(String username, AccountType accountType);

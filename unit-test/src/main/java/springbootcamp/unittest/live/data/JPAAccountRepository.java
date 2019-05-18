@@ -1,6 +1,6 @@
-package com.globant.bootcamp.unittesting.com.globant.bootcamp.liveclass.data;
+package springbootcamp.unittest.live.data;
 
-import com.globant.bootcamp.unittesting.com.globant.bootcamp.liveclass.domain.Account;
+import springbootcamp.unittest.live.domain.Account;
 
 public class JPAAccountRepository implements AccountRepository {
 

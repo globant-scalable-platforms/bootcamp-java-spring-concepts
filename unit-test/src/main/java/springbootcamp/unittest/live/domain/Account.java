@@ -1,4 +1,4 @@
-package com.globant.bootcamp.unittesting.com.globant.bootcamp.liveclass.domain;
+package springbootcamp.unittest.live.domain;
 
 public class Account {
 

@@ -1,7 +1,7 @@
-package springbootcamp.unittest.data;
+package springbootcamp.unittest.kata.data;
 
-import springbootcamp.unittest.domain.Account;
-import springbootcamp.unittest.domain.AccountType;
+import springbootcamp.unittest.kata.domain.Account;
+import springbootcamp.unittest.kata.domain.AccountType;
 
 public interface AccountRepository {
     Account findAccountByUsernameAndType(String username, AccountType accountType);
