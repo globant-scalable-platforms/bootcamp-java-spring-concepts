@@ -19,17 +19,20 @@ public class ListMain {
         list.add(4);
 
         System.out.println("Unsorted: " + list);
+        System.out.println("-----------------------------");
 
         //Sort
 
         list.sort(Comparator.naturalOrder());
 
         System.out.println("Sorted: " + list);
+        System.out.println("-----------------------------");
 
         //Iteration
 
         for(Integer value: list){
             System.out.println("Value " + value);
         }
+        System.out.println("-----------------------------");
     }
 }

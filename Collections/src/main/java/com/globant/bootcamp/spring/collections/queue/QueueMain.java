@@ -20,6 +20,7 @@ public class QueueMain {
         queue.add(4);
 
         System.out.println("Unsorted: " + queue);
+        System.out.println("-----------------------------");
 
         //Sort
 
@@ -30,12 +31,14 @@ public class QueueMain {
         for(Integer value: queue){
             System.out.println("Value " + value);
         }
+        System.out.println("-----------------------------");
 
         //Poll and
 
         Integer value = queue.peek();
 
         System.out.println("Peek " + value);
+        System.out.println("-----------------------------");
 
         value = queue.poll();
 
@@ -56,5 +59,6 @@ public class QueueMain {
         value = queue.poll();
 
         System.out.println("Poll " + value);
+        System.out.println("-----------------------------");
     }
 }
