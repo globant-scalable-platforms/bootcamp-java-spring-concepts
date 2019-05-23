@@ -17,6 +17,7 @@ public class SetMain {
         set.add(4);
 
         System.out.println("Unsorted: " + set);
+        System.out.println("-----------------------------");
 
         //Sort
 
@@ -27,5 +28,6 @@ public class SetMain {
         for(Integer value: set){
             System.out.println("Value " + value);
         }
+        System.out.println("-----------------------------");
     }
 }
