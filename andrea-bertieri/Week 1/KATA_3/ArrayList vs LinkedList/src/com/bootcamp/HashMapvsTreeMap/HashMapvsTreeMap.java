@@ -56,10 +56,27 @@ public class HashMapvsTreeMap {
 		end = System.nanoTime();
 
 	    System.out.println("HashMap's time (Miliseconds): " + ((end - start)));
-	    System.out.println("The winner is TreeMap");
+	    System.out.println("The winner is random. There is no a winner");
 
 	    
-		//Iterate over the whole entries
+		//Iterating over the whole entries
+	    System.out.println("\nITERATING OVER THE WHOLE ENTRIES (Using entries)");
+		start= System.nanoTime();
+		for(Map.Entry<Integer, String> value: map.entrySet()){
+            System.out.println("Entry " + value);
+        }
+		end = System.nanoTime();
+
+	    System.out.println("treeMap's time (Miliseconds): " + ((end - start)));
+	    
+	    start= System.nanoTime();
+	    for(Map.Entry<Integer, String> value: map.entrySet()){
+            System.out.println("Entry " + value);
+        }
+		end = System.nanoTime();
+
+	    System.out.println("HashMap's time (Miliseconds): " + ((end - start)));
+	    System.out.println("The winner is random. There is no a winner");
 	 
 
 	}
