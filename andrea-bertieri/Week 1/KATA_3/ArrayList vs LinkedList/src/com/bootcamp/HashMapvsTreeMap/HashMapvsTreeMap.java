@@ -1,7 +1,8 @@
 package com.bootcamp.HashMapvsTreeMap;
 
 import java.util.*;
-import java.util.stream.Collectors;
+import java.util.HashMap;
+import java.util.Map;
 
 public class HashMapvsTreeMap {
 
@@ -37,7 +38,7 @@ public class HashMapvsTreeMap {
 	    System.out.println("treeMap's time (Miliseconds): " + ((end - start)));
 	    
 	    start= System.nanoTime();
-	    treeMap.put(1,"Jamuary");
+	    treeMap.put(1,"January");
 		end = System.nanoTime();
 
 	    System.out.println("HashMap's time (Miliseconds): " + ((end - start)));
