@@ -1,5 +1,7 @@
 package calculator;
 
+import java.util.function.BinaryOperator;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -13,7 +15,10 @@ public class Main {
 		});*/
 		
 		//Code With Lambdas
-		Calculator.use((Calculator calculator)->{calculator.fn1(); calculator.fn2();});
+		BinaryOperator<Integer> sum=(a,b)->a+b;
+		
+		Calculator.use((Calculator calculator)->{System.out.println(calculator.execute(sum,3,2));});
+			//calculator.fn1(); calculator.fn2();});
 		
 		
 
