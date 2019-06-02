@@ -9,9 +9,9 @@ public class Calculadora {
 		BinaryOperator<Integer> subtract=(a,b)->a-b;
 		BinaryOperator<Integer> multiply=(a,b)->a*b;
 		
-		System.out.println(BasicOperations.execute(sum,4,7));
-		System.out.println(BasicOperations.execute(subtract,4,7));
-		System.out.println(BasicOperations.execute(multiply,4,7));
+		System.out.println(BasicOperation.execute(sum,4,7));
+		System.out.println(BasicOperation.execute(subtract,4,7));
+		System.out.println(BasicOperation.execute(multiply,4,7));
 	}
 
 }
