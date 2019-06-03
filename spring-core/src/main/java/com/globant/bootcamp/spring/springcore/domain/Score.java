@@ -1,11 +1,11 @@
 package com.globant.bootcamp.spring.springcore.domain;
 
 
-public class Counter {
+public class Score {
     private int count;
     private final String message;
     
-    public Counter(final int count, final String message) {
+    public Score(final int count, final String message) {
         this.count = count;
         this.message = message;
     }
