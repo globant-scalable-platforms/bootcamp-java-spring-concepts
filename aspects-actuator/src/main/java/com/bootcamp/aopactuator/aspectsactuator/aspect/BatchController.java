@@ -17,8 +17,6 @@ public class BatchController {
 
     @GetMapping("/batch")
     public String executeBatch(){
-         String t = batchFacade.execute();
-
-        return t;
+        return batchFacade.execute();
     }
 }
