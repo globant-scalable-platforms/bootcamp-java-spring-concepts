@@ -8,18 +8,18 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 @RestController
-public class MessageEndpoint {
+public class CustomerEndpoint {
 
     private final RestTemplate restTemplate;
 
-    public MessageEndpoint(RestTemplateBuilder restTemplateBuilder) {
+    public CustomerEndpoint(RestTemplateBuilder restTemplateBuilder) {
         this.restTemplate = restTemplateBuilder.build();
     }
 
-    @RequestMapping("/message/{customerId}")
-    public String getMessage(@PathVariable("customerId") Long customerId) {
+    @RequestMapping("/customer/{customerId}")
+    public String getCustomer(@PathVariable("customerId") Long customerId) {
         Customer customer =
-                this.restTemplate.getForObject("http://localhost:8000/person/{personId}", Customer.class, customerId);
+                this.restTemplate.getForObject("http://localhost:8000/customer/{customerId}", Customer.class, customerId);
         return "Welcome " + customer.getName();
     }
 
